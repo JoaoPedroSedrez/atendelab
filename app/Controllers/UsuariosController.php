@@ -14,7 +14,7 @@ class UsuariosController
     {
         header('Content-Type: application/json; charset=utf-8');
 
-        $sql = 'SELECT id, nome, email, perfil, status, criado_em
+        $sql = 'SELECT id, nome, email, perfil, status, data_criacao
                 FROM usuarios
                 ORDER BY id DESC';
 
